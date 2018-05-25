@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1be8f7ed2a5b8dff0bd7df45c489cdc615fde9434dbcdda2dc95f90e377807ec"
+            "sha256": "752592d61e20dade1e0f54dbeecc05f71aeb19e1e4bf5e6183713d43ffaf7603"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -27,20 +27,6 @@
         ]
     },
     "default": {
-        "gitdb2": {
-            "hashes": [
-                "sha256:cf9a4b68e8c4da8d42e48728c944ff7af2d8c9db303ac1ab32eac37aa4194b0e",
-                "sha256:b60e29d4533e5e25bb50b7678bbc187c8f6bcff1344b4f293b2ba55c85795f09"
-            ],
-            "version": "==2.0.3"
-        },
-        "gitpython": {
-            "hashes": [
-                "sha256:1ec4c44846cf76a1e55769560673a97731849c9d05401e035e607495f10db959",
-                "sha256:b60b045cf64a321e5b620debb49890099fa6c7be6dfb7fb249027e5d34227301"
-            ],
-            "version": "==2.1.10"
-        },
         "ply": {
             "hashes": [
                 "sha256:96e94af7dd7031d8d6dd6e2a8e0de593b511c211a86e28a9c9621c275ac8bacb"
@@ -52,13 +38,6 @@
                 "sha256:0bda1b46ae06f6d48e70509ecd2a4b65db0ae835726f8e30b2ca7e8684581223"
             ],
             "version": "==0.3.9"
-        },
-        "smmap2": {
-            "hashes": [
-                "sha256:b78ee0f1f5772d69ff50b1cbdb01b8c6647a8354f02f23b488cf4b2cfc923956",
-                "sha256:c7530db63f15f09f8251094b22091298e82bf6c699a6b8344aaaef3f2e1276c3"
-            ],
-            "version": "==2.0.3"
         }
     },
     "develop": {
@@ -95,7 +74,7 @@
                 "sha256:f0b0e4eba956de51238e17573b7087e852dfe9854afd2e9c873f73fc0ca0a6dd",
                 "sha256:9d98697f088eb1b0fa451391f91afb5e3ebde16bbdb272819fd091151fda4f1a"
             ],
-            "markers": "python_version < '3.4'",
+            "markers": "python_version == '2.7'",
             "version": "==1.5"
         },
         "backports.shutil-get-terminal-size": {
@@ -131,6 +110,7 @@
             "hashes": [
                 "sha256:5308b47021bc2340965c371f0f058cc6971a04502638d4244225c49d80db273a"
             ],
+            "markers": "python_version == '2.7'",
             "version": "==3.5.0"
         },
         "coverage": {
